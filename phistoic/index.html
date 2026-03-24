@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhiStoic — Daily Stoic Wisdom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background: #1A1A1A;
+            color: #F5F0E8;
+            font-family: 'DM Sans', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .phi-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 32px;
+            border-radius: 18px;
+            overflow: hidden;
+        }
+
+        .phi-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Fallback phi symbol if no icon image */
+        .phi-symbol {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 32px;
+            background: #222;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: #F5F0E8;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            color: #B3B0AA;
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 40px;
+        }
+
+        .separator {
+            width: 60px;
+            height: 2px;
+            background: #B3B0AA;
+            margin: 0 auto 40px;
+        }
+
+        .store-link {
+            display: block;
+            width: 100%;
+            padding: 16px 24px;
+            margin-bottom: 14px;
+            background: transparent;
+            border: 1px solid #3A3A3A;
+            border-radius: 12px;
+            color: #F5F0E8;
+            text-decoration: none;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background 0.2s ease, border-color 0.2s ease;
+        }
+
+        .store-link:hover {
+            background: #2A2A2A;
+            border-color: #555;
+        }
+
+        .store-label {
+            display: block;
+            font-size: 11px;
+            color: #B3B0AA;
+            margin-bottom: 2px;
+            font-weight: 400;
+        }
+
+        .footer {
+            margin-top: 48px;
+            color: #585450;
+            font-size: 13px;
+        }
+
+        .footer a {
+            color: #585450;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #B3B0AA;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="phi-icon"><img src="phistoic_icon.png" alt="PhiStoic"></div>
+
+        <h1>PhiStoic</h1>
+        <p class="tagline">Daily Stoic wisdom.<br>One quote, every day, for 365 days.</p>
+
+        <div class="separator"></div>
+
+        <a href="https://apps.apple.com/us/app/phistoic/id6760034910" class="store-link" target="_blank">
+            <span class="store-label">Download on the</span>
+            App Store
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.phistudioone.stoicapp" class="store-link" target="_blank">
+            <span class="store-label">Get it on</span>
+            Google Play
+        </a>
+
+        <div class="footer">
+            <a href="https://mk7219.github.io">Phi Studio One</a>
+        </div>
+    </div>
+</body>
+</html>
